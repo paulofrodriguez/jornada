@@ -56,4 +56,12 @@ public class WorkerStatus {
     public void setTimestamp(String timestamp) {
         this.timestamp = timestamp;
     }
+
+    public void setHost(String host) {
+        this.host = host;
+    }
+
+    public void setPort(Integer timestamp) {
+        this.host = host;
+    }
 }
