@@ -14,7 +14,12 @@ public class WorkerStatus {
     private String workerType;
 
     private String status;
+
     private String timestamp;
+
+    private String host;
+
+    private String port;
 
     // Getters e Setters
     public String getWorkerId() {
@@ -61,7 +66,7 @@ public class WorkerStatus {
         this.host = host;
     }
 
-    public void setPort(Integer timestamp) {
-        this.host = host;
+    public void setPort(Integer port) {
+        this.host = port;
     }
 }
